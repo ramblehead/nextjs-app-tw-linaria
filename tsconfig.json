@@ -1,0 +1,17 @@
+{
+  "extends": "@ramblehead/js-configs/nextjs/tsconfig.json",
+  "compilerOptions": {
+    "plugins": [{ "name": "next" }]
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.cts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.cjs",
+    "**/*.mjs",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": ["node_modules", ".next"]
+}
